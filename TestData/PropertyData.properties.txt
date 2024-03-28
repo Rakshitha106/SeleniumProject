@@ -1,0 +1,3 @@
+url https://demowebshop.tricentis.com/
+username rakshitha.hn1992@gmail.com
+pwd Sanay@123
