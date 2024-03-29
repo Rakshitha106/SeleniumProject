@@ -30,7 +30,7 @@ public class ReadDataFromExternalFile {
 	}
 
 	public String readingTheDataFromExcelSheet(String path, String sheetName,int rownum,int cellnum) throws Throwable {
-		File file=new File("./TestData/AdvanceSeleniumTestData.xlsx");
+		File file=new File("./TestData/SeleniumTestData.xlsx");
 		FileInputStream fis = new FileInputStream(file);
 		Workbook book = WorkbookFactory.create(fis);
 		Sheet sheet = book.getSheet(sheetName);
@@ -41,15 +41,15 @@ public class ReadDataFromExternalFile {
 		
 	}
 	public static String[][] readDataFromMultipleRowColumn(String path,String sheetName,int rownum,int cellnum) throws Throwable, IOException{
-	File file=new File("./TestData/AdvanceSeleniumTestData.xlsx");
+	File file=new File("./TestData/SeleniumTestData.xlsx");
 	
 	FileInputStream fis=new FileInputStream(file);
 	
 	Workbook workbook = WorkbookFactory.create(fis);
 	Sheet sheet = workbook.getSheet(sheetName);
 
-	int numOfRows = workbook.getSheet("regData").getPhysicalNumberOfRows();
-	int numOfCells = workbook.getSheet("regData").getRow(0).getPhysicalNumberOfCells();
+	int numOfRows = workbook.getSheet("regdata").getPhysicalNumberOfRows();
+	int numOfCells = workbook.getSheet("regdata").getRow(0).getPhysicalNumberOfCells();
 	
 	String[][] data=new String[numOfRows][numOfCells];
 	for (int i = 0; i < numOfRows; i++) {
@@ -65,14 +65,14 @@ public class ReadDataFromExternalFile {
 }
 	
 	public String[] readRowDataFromExcel(String path,String sheetName,int cellnum) throws Throwable, IOException{
-		File file=new File("./TestData/AdvanceSeleniumTestData.xlsx");
+		File file=new File("./TestData/SeleniumTestData.xlsx");
 		
 		FileInputStream fis=new FileInputStream(file);
 		
 		Workbook workbook = WorkbookFactory.create(fis);
 		Sheet sheet = workbook.getSheet(sheetName);
 
-		int numOfRows = workbook.getSheet("regData").getPhysicalNumberOfRows();
+		int numOfRows = workbook.getSheet("regdata").getPhysicalNumberOfRows();
 	//	int numOfCells = workbook.getSheet("regData").getRow(0).getPhysicalNumberOfCells();
 		
 		String[] data=new String[numOfRows];

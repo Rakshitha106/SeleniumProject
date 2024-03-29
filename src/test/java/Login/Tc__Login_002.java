@@ -1,5 +1,6 @@
 package Login;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import GenericLibrary.BaseClass;
@@ -21,6 +22,8 @@ public class Tc__Login_002 extends BaseClass{
 		lp.getEmailTextBox().sendKeys(email);
 		lp.getPasswordTextField().sendKeys(pwd);
 		lp.getLoginButton().click();
+		
+		Reporter.log("Registered Succesfully",true);
 		
 	}
 
