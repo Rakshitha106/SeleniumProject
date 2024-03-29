@@ -10,6 +10,8 @@ import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.testng.annotations.Test;
+
 
 
 public class ReadDataFromExternalFile {
@@ -26,12 +28,15 @@ public class ReadDataFromExternalFile {
 		return value;
 		
 	}
+
 	public String readingTheDataFromExcelSheet(String path, String sheetName,int rownum,int cellnum) throws Throwable {
 		File file=new File("./TestData/AdvanceSeleniumTestData.xlsx");
 		FileInputStream fis = new FileInputStream(file);
 		Workbook book = WorkbookFactory.create(fis);
 		Sheet sheet = book.getSheet(sheetName);
+		
 		String data = book.getSheet(sheetName).getRow(rownum).getCell(cellnum).toString();
+	
 		return data;
 		
 	}

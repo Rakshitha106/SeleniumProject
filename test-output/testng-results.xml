@@ -20,19 +20,19 @@
       <![CDATA[AfterSuite: DataBase Connection stop]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-27T22:22:52 IST" name="Default suite" finished-at="2024-03-27T22:23:06 IST" duration-ms="14698">
+  <suite started-at="2024-03-29T16:45:14 IST" name="Default suite" finished-at="2024-03-29T16:45:39 IST" duration-ms="25020">
     <groups>
     </groups>
-    <test started-at="2024-03-27T22:22:52 IST" name="Default test" finished-at="2024-03-27T22:23:06 IST" duration-ms="14698">
-      <class name="Login.Tc_Login_001">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Login.Tc_Login_001@4738a206]" started-at="2024-03-27T22:22:52 IST" name="beforeSuite" finished-at="2024-03-27T22:22:52 IST" duration-ms="11" status="PASS">
+    <test started-at="2024-03-29T16:45:14 IST" name="Default test" finished-at="2024-03-29T16:45:39 IST" duration-ms="25020">
+      <class name="Login.Tc__Login_002">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Login.Tc__Login_002@543588e6]" started-at="2024-03-29T16:45:14 IST" name="beforeSuite" finished-at="2024-03-29T16:45:14 IST" duration-ms="15" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[BeforeSuite: DataBase Connection start]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:Login.Tc_Login_001@4738a206]" started-at="2024-03-27T22:22:52 IST" name="browserSetUp" finished-at="2024-03-27T22:23:01 IST" duration-ms="9496" status="PASS">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:Login.Tc__Login_002@543588e6]" started-at="2024-03-29T16:45:14 IST" name="browserSetUp" finished-at="2024-03-29T16:45:26 IST" duration-ms="12471" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User is able to open empty Browser]]>
@@ -45,25 +45,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="loginPage()[pri:0, instance:Login.Tc_Login_001@4738a206]" started-at="2024-03-27T22:23:01 IST" name="loginPage" finished-at="2024-03-27T22:23:03 IST" duration-ms="1844" status="PASS">
+        <test-method signature="verify_user_can_able_to_login_withExcelData()[pri:0, instance:Login.Tc__Login_002@543588e6]" started-at="2024-03-29T16:45:27 IST" name="verify_user_can_able_to_login_withExcelData" finished-at="2024-03-29T16:45:34 IST" duration-ms="7331" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="toQuitBroswer()[pri:0, instance:Login.Tc_Login_001@4738a206]" started-at="2024-03-27T22:23:03 IST" name="toQuitBroswer" finished-at="2024-03-27T22:23:06 IST" duration-ms="3315" status="PASS">
+        </test-method> <!-- verify_user_can_able_to_login_withExcelData -->
+        <test-method is-config="true" signature="toQuitBroswer()[pri:0, instance:Login.Tc__Login_002@543588e6]" started-at="2024-03-29T16:45:34 IST" name="toQuitBroswer" finished-at="2024-03-29T16:45:39 IST" duration-ms="5162" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User is able to close the DemoWebShop]]>
             </line>
           </reporter-output>
         </test-method> <!-- toQuitBroswer -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Login.Tc_Login_001@4738a206]" started-at="2024-03-27T22:23:07 IST" name="afterSuite" finished-at="2024-03-27T22:23:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Login.Tc__Login_002@543588e6]" started-at="2024-03-29T16:45:39 IST" name="afterSuite" finished-at="2024-03-29T16:45:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[AfterSuite: DataBase Connection stop]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- Login.Tc_Login_001 -->
+      </class> <!-- Login.Tc__Login_002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

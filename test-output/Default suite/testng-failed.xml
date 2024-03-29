@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.Tc_Login_001">
+      <class name="Login.Tc__Login_002">
         <methods>
-          <include name="loginPage"/>
+          <include name="verify_user_can_able_to_login_withExcelData"/>
           <include name="toQuitBroswer"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
           <include name="browserSetUp"/>
         </methods>
-      </class> <!-- Login.Tc_Login_001 -->
+      </class> <!-- Login.Tc__Login_002 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
