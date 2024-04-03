@@ -13,16 +13,16 @@ import GenericLibrary.BaseClass;
 import POM.LoginPage;
 
 public class Tc_Login_001_Test extends BaseClass{
-	@Test
-	public void verify_user_can_able_to_login_using_credentials() {
-	LoginPage lp = new LoginPage(driver);
-	
-	lp.getLoginLink().click();
-	lp.getEmailTextBox().sendKeys("rakshitha.hn1992@gmail.com");
-	lp.getPasswordTextField().sendKeys("Sanay@123");
-	lp.getLoginButton().click();
-		
-	}
+//	@Test
+//	public void verify_user_can_able_to_login_using_credentials() {
+//	LoginPage lp = new LoginPage(driver);
+//	
+//	lp.getLoginLink().click();
+//	lp.getEmailTextBox().sendKeys("rakshitha.hn1992@gmail.com");
+//	lp.getPasswordTextField().sendKeys("Sanay@123");
+//	lp.getLoginButton().click();
+//		
+//	}
 	@Test
 	public void loginExcelData() throws Throwable {
 		
