@@ -14,25 +14,28 @@
       <![CDATA[User is able to open DemoWebShop HomePAge]]>
     </line>
     <line>
+      <![CDATA[Registered Succesfully]]>
+    </line>
+    <line>
       <![CDATA[User is able to close the DemoWebShop]]>
     </line>
     <line>
       <![CDATA[AfterSuite: DataBase Connection stop]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-29T20:45:18 IST" name="Default suite" finished-at="2024-03-29T20:45:38 IST" duration-ms="20513">
+  <suite started-at="2024-04-03T16:25:16 IST" name="Default suite" finished-at="2024-04-03T16:25:38 IST" duration-ms="22169">
     <groups>
     </groups>
-    <test started-at="2024-03-29T20:45:18 IST" name="Default test" finished-at="2024-03-29T20:45:38 IST" duration-ms="20513">
-      <class name="Cart.Tc_AddToCart_001">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Cart.Tc_AddToCart_001@543588e6]" started-at="2024-03-29T20:45:18 IST" name="beforeSuite" finished-at="2024-03-29T20:45:18 IST" duration-ms="15" status="PASS">
+    <test started-at="2024-04-03T16:25:16 IST" name="Default test" finished-at="2024-04-03T16:25:38 IST" duration-ms="22169">
+      <class name="Login.Tc__Login_002_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Login.Tc__Login_002_Test@543588e6]" started-at="2024-04-03T16:25:16 IST" name="beforeSuite" finished-at="2024-04-03T16:25:16 IST" duration-ms="14" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[BeforeSuite: DataBase Connection start]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:Cart.Tc_AddToCart_001@543588e6]" started-at="2024-03-29T20:45:18 IST" name="browserSetUp" finished-at="2024-03-29T20:45:29 IST" duration-ms="11670" status="PASS">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:Login.Tc__Login_002_Test@543588e6]" started-at="2024-04-03T16:25:16 IST" name="browserSetUp" finished-at="2024-04-03T16:25:28 IST" duration-ms="12412" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User is able to open empty Browser]]>
@@ -45,25 +48,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method signature="Verify_that_user_can_Able_to_add_Item_to_car()[pri:0, instance:Cart.Tc_AddToCart_001@543588e6]" started-at="2024-03-29T20:45:29 IST" name="Verify_that_user_can_Able_to_add_Item_to_car" finished-at="2024-03-29T20:45:35 IST" duration-ms="5287" status="PASS">
+        <test-method signature="verify_user_can_able_to_login_withExcelData()[pri:0, instance:Login.Tc__Login_002_Test@543588e6]" started-at="2024-04-03T16:25:28 IST" name="verify_user_can_able_to_login_withExcelData" finished-at="2024-04-03T16:25:34 IST" duration-ms="5959" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Registered Succesfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Verify_that_user_can_Able_to_add_Item_to_car -->
-        <test-method is-config="true" signature="toQuitBroswer()[pri:0, instance:Cart.Tc_AddToCart_001@543588e6]" started-at="2024-03-29T20:45:35 IST" name="toQuitBroswer" finished-at="2024-03-29T20:45:38 IST" duration-ms="3488" status="PASS">
+        </test-method> <!-- verify_user_can_able_to_login_withExcelData -->
+        <test-method is-config="true" signature="toQuitBroswer()[pri:0, instance:Login.Tc__Login_002_Test@543588e6]" started-at="2024-04-03T16:25:34 IST" name="toQuitBroswer" finished-at="2024-04-03T16:25:38 IST" duration-ms="3748" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User is able to close the DemoWebShop]]>
             </line>
           </reporter-output>
         </test-method> <!-- toQuitBroswer -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Cart.Tc_AddToCart_001@543588e6]" started-at="2024-03-29T20:45:38 IST" name="afterSuite" finished-at="2024-03-29T20:45:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Login.Tc__Login_002_Test@543588e6]" started-at="2024-04-03T16:25:38 IST" name="afterSuite" finished-at="2024-04-03T16:25:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[AfterSuite: DataBase Connection stop]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- Cart.Tc_AddToCart_001 -->
+      </class> <!-- Login.Tc__Login_002_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
