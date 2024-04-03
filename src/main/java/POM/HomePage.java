@@ -36,13 +36,34 @@ public class HomePage {
 	
 	@FindBy(linkText = "Popular tags")
 	private WebElement popular_tagsIcon;
-
+	
+	@FindBy(linkText = "Books")
+	private WebElement booksIcon;
+	
+	@FindBy(linkText = "Computers")
+	private WebElement computerIcon;
+	
+	@FindBy(linkText = "Electronics")
+	private WebElement electronicsIcon;
+	
 	public WebElement getHeaderLogo() {
 		return headerLogo;
 	}
 
 	public WebElement getSearchBar() {
 		return SearchBar;
+	}
+
+	public WebElement getBooksIcon() {
+		return booksIcon;
+	}
+
+	public WebElement getComputerIcon() {
+		return computerIcon;
+	}
+
+	public WebElement getElectronicsIcon() {
+		return electronicsIcon;
 	}
 
 	public WebElement getRegisterIcon() {

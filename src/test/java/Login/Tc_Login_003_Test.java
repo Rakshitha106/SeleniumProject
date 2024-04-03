@@ -6,7 +6,7 @@ import GenericLibrary.BaseClass;
 import GenericLibrary.ReadDataFromExternalFile;
 import POM.LoginPage;
 
-public class Tc_Login_003 extends BaseClass{
+public class Tc_Login_003_Test extends BaseClass{
 	@Test
 	public void Verify_that_user_can_able_to_Login_with_invalid_emailID() throws Throwable {
 		ReadDataFromExternalFile data = new ReadDataFromExternalFile();

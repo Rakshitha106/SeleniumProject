@@ -7,7 +7,7 @@ import GenericLibrary.BaseClass;
 import GenericLibrary.ReadDataFromExternalFile;
 import POM.LoginPage;
 
-public class Tc__Login_002 extends BaseClass{
+public class Tc__Login_002_Test extends BaseClass{
 	@Test
 	public void verify_user_can_able_to_login_withExcelData() throws Throwable {
 		ReadDataFromExternalFile excelData = new ReadDataFromExternalFile();

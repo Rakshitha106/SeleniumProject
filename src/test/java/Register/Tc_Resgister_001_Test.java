@@ -8,7 +8,7 @@ import GenericLibrary.BaseClass;
 import GenericLibrary.ReadDataFromExternalFile;
 import POM.RegisterPage;
 
-public class Tc_Resgister_001 extends BaseClass {
+public class Tc_Resgister_001_Test extends BaseClass {
 	@Test
 	public void verify_User_Can_Able_to_Register_with_valid_Data() throws Throwable, Throwable {
 		

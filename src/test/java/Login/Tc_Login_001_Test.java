@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import GenericLibrary.BaseClass;
 import POM.LoginPage;
 
-public class Tc_Login_001 extends BaseClass{
+public class Tc_Login_001_Test extends BaseClass{
 	@Test
 	public void verify_user_can_able_to_login_using_credentials() {
 	LoginPage lp = new LoginPage(driver);

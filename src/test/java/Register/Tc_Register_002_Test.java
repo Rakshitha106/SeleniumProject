@@ -9,7 +9,7 @@ import GenericLibrary.ReadDataFromExternalFile;
 import GenericLibrary.UtilityMethods;
 import POM.RegisterPage;
 
-public class Tc_Register_002 extends BaseClass{
+public class Tc_Register_002_Test extends BaseClass{
 	@Test
 	public void Verify_the_user_can_able_to_register_again_with_same_email() throws Throwable, Throwable {
 		ReadDataFromExternalFile data = new ReadDataFromExternalFile();
